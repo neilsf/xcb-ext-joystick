@@ -1,25 +1,25 @@
-#XC=BASIC Joystick extension
+# XC=BASIC Joystick extension
 
 Joystick extension for XC=BASIC. Requires XC=BASIC version 2.2 or higher.
 
 This extension provides convenience functions to query the state of joysticks.
 
-##Usage
+## Usage
 
 Copy this directory to your project path and include the file `joystick.bas` on the top of your program:
 
 	include "joystick/joystick.bas"
 	
-##Constants defined by this extension
+## Constants defined by this extension
 
 	const JOY_PORT2 = $dc00
 	const JOY_PORT1 = $dc01
 	
-##Commands defined by this extension
+## Commands defined by this extension
 
 This extension does not define any commands.
 	
-##Functions defined by this extension
+## Functions defined by this extension
 
 	joy_1_up!()
 	
