@@ -6,7 +6,7 @@ This extension provides convenience functions to query the state of joysticks. R
 
 Copy this directory to your project path and include the file `joystick.bas` on the top of your program:
 
-	include "joystick/joystick.bas"
+	include "path/to/joystick.bas"
 	
 ## Constants defined by this extension
 
