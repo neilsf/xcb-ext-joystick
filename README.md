@@ -1,8 +1,6 @@
 # XC=BASIC Joystick extension
 
-Joystick extension for XC=BASIC. Requires XC=BASIC version 2.2 or higher.
-
-This extension provides convenience functions to query the state of joysticks.
+This extension provides convenience functions to query the state of joysticks. Requires XC=BASIC version 2.2 or higher.
 
 ## Usage
 
