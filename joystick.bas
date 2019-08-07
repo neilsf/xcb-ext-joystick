@@ -9,6 +9,8 @@ rem ************************************
 const JOY_PORT2 = $dc00
 const JOY_PORT1 = $dc01
 
+goto joy_ext_end
+
 rem ************************************
 rem * Macros                           *
 rem ************************************
@@ -17,7 +19,7 @@ CIA_PORTA   EQU $dc00
 CIA_PORTB   EQU $dc01
 
     MAC joytest
-    lda {2}
+    lda #{2}
     IF {1} = 1
     bit CIA_PORTB
     ELSE
@@ -97,3 +99,5 @@ aliasfn @joy_2_down,    "joy_2_down!"
 aliasfn @joy_2_left,    "joy_2_left!"
 aliasfn @joy_2_right,   "joy_2_right!"
 aliasfn @joy_2_fire,    "joy_2_fire!"
+
+joy_ext_end:
