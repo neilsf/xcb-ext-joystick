@@ -1,12 +1,17 @@
-# XC=BASIC Joystick extension
+# xcb-ext-sprite
+XC=BASIC extension for convenient sprite programming. Compatible with XC=BASIC v2.2 or higher. [Click here to learn about XC=BASIC](https://xc-basic.net)
 
-This extension provides convenience functions to query the state of joysticks. Requires XC=BASIC version 2.2 or higher.
+# Usage
 
-## Usage
+Include the file `xcb-ext-joystick.bas` in the top of your program:
 
-Copy this directory to your project path and include the file `joystick.bas` on the top of your program:
+    include "path/to/xcb-ext-joystick.bas"
+    
+That's it, you can now use all the symbols defined by this extension. Avoid naming collisions by not defining symbols starting with `joy_` in your program.
 
-	include "path/to/joystick.bas"
+# Examples
+
+Please refer to the file `examples/joystick_test.bas` for an example.
 	
 ## Constants defined by this extension
 
