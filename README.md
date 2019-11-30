@@ -1,5 +1,5 @@
-# xcb-ext-sprite
-XC=BASIC extension for convenient sprite programming. Compatible with XC=BASIC v2.2 or higher. [Click here to learn about XC=BASIC](https://xc-basic.net)
+# xcb-ext-joystick
+XC=BASIC extension for querying joystick states in a convenient way. Compatible with XC=BASIC v2.2 or higher. [Click here to learn about XC=BASIC](https://xc-basic.net)
 
 # Usage
 
