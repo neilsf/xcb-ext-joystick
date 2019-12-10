@@ -39,7 +39,7 @@ rem * joy_1_up!
 rem *
 rem ******************************
 
-fun joy_1_up!
+fun joy_1_up!()
   asm "
     joy_saveaddr
     lda #%00000001
@@ -61,7 +61,7 @@ rem * joy_1_down!
 rem *
 rem ******************************
 
-fun joy_1_down!
+fun joy_1_down!()
   asm "
     joy_saveaddr
     lda #%00000010
@@ -83,7 +83,7 @@ rem * joy_1_left!
 rem *
 rem ******************************
 
-fun joy_1_left!
+fun joy_1_left!()
   asm "
     joy_saveaddr
     lda #%00000100
@@ -105,7 +105,7 @@ rem * joy_1_right!
 rem *
 rem ******************************
 
-fun joy_1_right!
+fun joy_1_right!()
   asm "
     joy_saveaddr
     lda #%00001000
@@ -127,7 +127,7 @@ rem * joy_1_fire!
 rem *
 rem ******************************
 
-fun joy_1_fire!
+fun joy_1_fire!()
   asm "
     joy_saveaddr
     lda #%00010000
@@ -149,7 +149,7 @@ rem * joy_2_up!
 rem *
 rem ******************************
 
-fun joy_2_up!
+fun joy_2_up!()
   asm "
     joy_saveaddr
     lda #%00000001
@@ -171,7 +171,7 @@ rem * joy_2_down!
 rem *
 rem ******************************
 
-fun joy_2_down!
+fun joy_2_down!()
   asm "
     joy_saveaddr
     lda #%00000010
@@ -193,7 +193,7 @@ rem * joy_2_left!
 rem *
 rem ******************************
 
-fun joy_2_left!
+fun joy_2_left!()
   asm "
     joy_saveaddr
     lda #%00000100
@@ -215,7 +215,7 @@ rem * joy_2_right!
 rem *
 rem ******************************
 
-fun joy_2_right!
+fun joy_2_right!()
   asm "
     joy_saveaddr
     lda #%00001000
@@ -237,7 +237,7 @@ rem * joy_2_fire!
 rem *
 rem ******************************
 
-fun joy_2_fire!
+fun joy_2_fire!()
   asm "
     joy_saveaddr
     lda #%00010000
